@@ -1,8 +1,18 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Book Archives 
 
-Welcome,
+Book Archives is a Python based CLI app for managing books.
+Users can use this app to add and look up books.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+## How to use the app 
+
+## Testing
+
+### Bugs 
+
+#### Solved bugs
+
+* When i tested the code in the terminal, i noticed that something was wrong with the code, this was
+due to a problem within the while loop. 
 
 ## Reminders
 
