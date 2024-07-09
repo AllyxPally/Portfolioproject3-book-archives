@@ -32,6 +32,10 @@ I have tested this project manually by doing the following:
 * When i tested the code in the terminal, i noticed that something was wrong with the code, this was
 due to a problem within the while loop.
 
+### Remaining Bugs 
+
+* No remaning bugs. 
+
 ## Deployment
 
 This project was deployed using Code Instutute's mock terminal for Heroku.

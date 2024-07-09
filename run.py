@@ -16,7 +16,7 @@ def run():
 
 
       while choice != 4:
-        print("Welcome to the Book Archives")
+        print("Welcome to the Book Archives\n")
         print("1. Add a new book")
         print("2. Find a book")
         print("3. Display all books")
@@ -29,14 +29,14 @@ def run():
             continue        
         
         if choice == 1: 
-            print("Adding a new book")
+            print("Adding a new book\n")
             title = get_valid_input("Enter book title: ")
             author = get_valid_input("Enter name of author: ")
             genre = get_valid_input("Enter book genre: ")
             bookArchives.append([title, author, genre])        
         
         elif choice == 2: 
-            print("Finding a book")
+            print("Finding a book\n")
             searchTerm = get_valid_input("Find the book you are looking for: ")
             found = False
 
@@ -48,7 +48,7 @@ def run():
                 print("No book found with that term.\n")        
         
         elif choice == 3: 
-                print("Displaying all books")
+                print("Displaying all books\n")
                 if bookArchives:
                     for book in bookArchives:
                         print(book)
