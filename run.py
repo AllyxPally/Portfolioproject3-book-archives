@@ -23,9 +23,9 @@ def run():
         print("4. Exit")
 
         try:
-            choice = int(input("Enter your choice: "))
+            choice = int(input("Enter your choice:\n "))
         except ValueError:
-            print("Please enter a valid number.")
+            print("Please enter a valid number.\n")
             continue        
         
         if choice == 1: 
@@ -45,7 +45,7 @@ def run():
                         print(book)
                         found = True
             if not found: 
-                print("No book found with that term.")        
+                print("No book found with that term.\n")        
         
         elif choice == 3: 
                 print("Displaying all books")
@@ -54,10 +54,10 @@ def run():
                         print(book)
                         
                 else:
-                    print("No books in the archive.")  
-                    #print("Please enter a valid choice.")    
+                    print("No books in the archive.\n")  
+                     
                     
-        #else: 
+       
         elif choice == 4:
                 print("Exiting program....")
                 print("You have successfully exited the program!")
