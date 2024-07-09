@@ -23,20 +23,13 @@ I have tested this project manually by doing the following:
 #### Solved bugs
 
 * When i tested the code in the terminal, i noticed that something was wrong with the code, this was
-due to a problem within the while loop. 
+due to a problem within the while loop.
 
-## Reminders
+## Credits
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+* Code Institute for the terminal used for deployment.
 
-## Creating the Heroku app
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
 
 
 
