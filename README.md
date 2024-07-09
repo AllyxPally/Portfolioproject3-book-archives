@@ -9,10 +9,10 @@ https://book-archives-7f9fe26c25b2.herokuapp.com/
 
 There are four choices to choose from: 
 
-* 1. Add a new book 
-* 2. Find a book
-* 3. Display all books 
-* 4. Exit the program
+* Add a new book 
+* Find a book
+* Display all books 
+* Exit the program
 
 If the user chooses any other number they will get a validation message telling them to enter
 a valid number. 
