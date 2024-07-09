@@ -1,11 +1,22 @@
 # Book Archives 
 
-Book Archives is a Python based CLI app for managing books.
-Users can use this app to add and look up books.
+Book Archives is a Python based CLI app for managing books, which runs in the Code Institute mock terminal.
+Users can use this app to add and look up books that are filed in the archive. 
+
+https://book-archives-7f9fe26c25b2.herokuapp.com/
 
 ## How to use the app 
 
+There are four choices to choose from, 1. Add a book
+
+
 ## Testing
+
+I have tested this project manually by doing the following: 
+
+* Given invalid inputs, any number above 4 will tell the user to enter a valid number.
+* Tested the code in local terminal and the mock terminal provided by Code Institute.
+
 
 ### Bugs 
 
@@ -27,16 +38,5 @@ When you create the app, you will need to add two buildpacks from the _Settings_
 1. `heroku/python`
 2. `heroku/nodejs`
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
