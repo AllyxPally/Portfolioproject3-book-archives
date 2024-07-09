@@ -16,6 +16,15 @@ There are four choices to choose from:
 If the user chooses any other number they will get a validation message telling them to enter
 a valid number. 
 
+## Features 
+
+### Existing features
+
+### Future features
+
+* Archive books in a better way. 
+
+
 
 ## Testing
 
