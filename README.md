@@ -3,7 +3,7 @@
 Book Archives is a Python based CLI app for managing books, which runs in the Code Institute mock terminal.
 Users can use this app to add and look up books that are filed in the archive. 
 
-https://book-archives-7f9fe26c25b2.herokuapp.com/
+Here is the live version (https://book-archives-7f9fe26c25b2.herokuapp.com/)
 
 ## How to use the app 
 
