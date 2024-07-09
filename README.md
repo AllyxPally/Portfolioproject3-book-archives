@@ -33,6 +33,18 @@ I have tested this project manually by doing the following:
 * When i tested the code in the terminal, i noticed that something was wrong with the code, this was
 due to a problem within the while loop.
 
+## Deployment
+
+This project was deployed using Code Instutute's mock terminal for Heroku.
+
+* Steps for deployment 
+  - Create a new Heroku app
+  - Set the buildpacks to Python and NodeJS, it has to be that order
+  - Link the Heroku app to the repository
+  - Click on Deploy
+
+
+
 ## Credits
 
 * Code Institute for the terminal used for deployment.
